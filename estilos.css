@@ -181,3 +181,46 @@ p {
   max-width: 700px;
   text-align: left;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    padding: 10px 16px;
+  }
+
+  #navegador ul {
+    gap: 8px;
+  }
+
+  #navegador li a {
+    padding: 8px 16px;
+    font-size: 0.95rem;
+  }
+
+  img.derecha {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+  }
+
+  .parrafo {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #derechodeautor {
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+  }
+
+  #derechodeautor p.right,
+  #derechodeautor p.left {
+    text-align: center;
+  }
+}

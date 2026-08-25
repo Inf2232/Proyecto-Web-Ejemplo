@@ -17,12 +17,6 @@ body {
   align-items: center;
   padding: 20px;
 }
-h1{
-    border-radius: 30px;
-    text-align: center;
-    background-color:pink;
-}
-
 
     
 
@@ -63,30 +57,6 @@ h1{
   transform: translateY(-3px);
   box-shadow: 0 6px 14px rgba(255, 0, 170, 0.4);
 }
-h3{
-    border-radius: 30px;
-    text-align: center;
-    background-color: pink;
-    color: fuchsia;
-}
-h2{
-    text-align: center;
-    color: red;
-}
-p{
-    border-radius: 30px;
-
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: pink;
-    color: black;
-}
-h4{  
-    border-radius: 30px;
-   text-align: center;
-   color:darkmagenta;
-    font-size: 20px;
-}
 
 a:hover{
     color: black;
@@ -94,12 +64,7 @@ a:hover{
 #direccion{
    text-align: center;
 }
-.parrafo{
-    margin-left: 50px;
-    font-style: oblique;
-    color: black
 
-}
 img.derecha{
     float: right;
 
@@ -123,4 +88,67 @@ img.derecha{
 
     background-color: white;
     float: right;
+}
+h1 {
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgba(255, 192, 203, 0.85);
+  padding: 15px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  backdrop-filter: blur(2px);
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto 20px auto;
+}
+
+h2 {
+  text-align: center;
+  color: #d40000;
+  font-size: 2rem;
+  margin: 20px 0 10px 0;
+}
+
+h3 {
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgba(255, 192, 203, 0.85);
+  color: #cc00aa;
+  padding: 10px 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h4 {
+  border-radius: 30px;
+  text-align: center;
+  color: #8b008b;
+  font-size: 1.4rem;
+  padding: 6px 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  margin: 10px auto;
+}
+
+p {
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgba(255, 192, 203, 0.75);
+  color: #1a1a1a;
+  padding: 16px 24px;
+  max-width: 800px;
+  margin: 12px auto;
+  line-height: 1.6;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  backdrop-filter: blur(2px);
+}
+
+.parrafo {
+  margin-left: 30px;
+  font-style: oblique;
+  color: #111;
+  background-color: rgba(255, 192, 203, 0.6);
+  max-width: 700px;
+  text-align: left;
 }

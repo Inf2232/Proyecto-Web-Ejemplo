@@ -1,0 +1,101 @@
+
+body{
+    
+    background-image:url(photo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    border-radius: 30px;
+    text-align: center;
+    background-color:pink;
+}
+
+
+    
+
+#navegador ul{
+
+    text-align: center;
+}
+#navegador li{
+
+
+
+    display: inline;
+    text-align: center;
+}
+#navegador li a {
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+    background-color:pink;
+    color: blue;
+    border-radius: 30px;
+}
+#navegador li a:hover{
+    color: beige;
+    background-color:fuchsia;
+}
+h3{
+    border-radius: 30px;
+    text-align: center;
+    background-color: pink;
+    color: fuchsia;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+p{
+    border-radius: 30px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: pink;
+    color: black;
+}
+h4{  
+    border-radius: 30px;
+   text-align: center;
+   color:darkmagenta;
+    font-size: 20px;
+}
+
+a:hover{
+    color: black;
+}
+#direccion{
+   text-align: center;
+}
+.parrafo{
+    margin-left: 50px;
+    font-style: oblique;
+    color: black
+
+}
+img.derecha{
+    float: right;
+
+}
+#derechodeautor{
+    
+    border-top-left-radius:30px ;
+    border-top-right-radius: 30px;
+    background-color: white;
+}
+
+#derechodeautor p.right{
+    margin-right: 0%;
+    float: left;
+    background-color: white;
+   
+
+}
+#derechodeautor p.left{
+    margin-left: 0%;
+
+    background-color: white;
+    float: right;
+}

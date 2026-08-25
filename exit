@@ -1,0 +1,35 @@
+[33mcommit f2a30139ed1c02f004854f24155571c2b3d1a1a4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-mejora-estilo[m[33m, [m[1;31morigin/feature-mejora-estilo[m[33m)[m
+Author: Carlos Pescoso <carlospescoso03@gmail.com>
+Date:   Tue Aug 25 15:37:58 2026 -0400
+
+    Mejora: títulos y párrafos con efecto glassmorphism (transparencia y desenfoque)
+
+[33mcommit 670a4e2841b8c5af5b16573fa5c7b4e3510e308f[m
+Author: Carlos Pescoso <carlospescoso03@gmail.com>
+Date:   Tue Aug 25 15:36:43 2026 -0400
+
+    Mejora: menú de navegación con Flexbox, sombras y transiciones suaves
+
+[33mcommit caff13e2e3fb2b70d096ccab21f9b9b231faae7f[m
+Author: Carlos Pescoso <carlospescoso03@gmail.com>
+Date:   Tue Aug 25 15:33:33 2026 -0400
+
+    Mejora: configuración base, fuente moderna y fondo fijo para mejor legibilidad
+
+[33mcommit 8d93b32d0af5c7ec4fe7223626a090d156b40b2a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Carlos Pescoso <carlospescoso03@gmail.com>
+Date:   Tue Aug 25 15:26:06 2026 -0400
+
+    Primer commit
+
+[33mcommit 31b4c1ee9878ac3a0d3a3bdd0f854eb0c8fa91df[m
+Author: CarlosPR <145690259+Inf2232@users.noreply.github.com>
+Date:   Tue Aug 25 15:13:42 2026 -0400
+
+    Agregar la descripcion del  proyecto
+
+[33mcommit a1cc9d5bc20af78e320dd513f1d78cc2cfc555a2[m
+Author: CarlosPR <145690259+Inf2232@users.noreply.github.com>
+Date:   Tue Aug 25 15:07:44 2026 -0400
+
+    Initial commit

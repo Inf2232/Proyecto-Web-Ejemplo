@@ -26,29 +26,42 @@ h1{
 
     
 
-#navegador ul{
-
-    text-align: center;
+#navegador {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
 }
-#navegador li{
 
-
-
-    display: inline;
-    text-align: center;
+#navegador ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
 }
+
+#navegador li {
+  display: inline-block;
+}
+
 #navegador li a {
-    padding: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    
-    background-color:pink;
-    color: blue;
-    border-radius: 30px;
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: rgba(255, 192, 203, 0.9);
+  color: #0055cc;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
 }
-#navegador li a:hover{
-    color: beige;
-    background-color:fuchsia;
+
+#navegador li a:hover {
+  color: #fff5e6;
+  background-color: #ff00aa;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(255, 0, 170, 0.4);
 }
 h3{
     border-radius: 30px;
